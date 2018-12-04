@@ -39,8 +39,9 @@ public class Poligono {
     }
 
     public ArrayList<Point> getPuntosAux() {
+        System.out.println(" ");
         return puntosAux;
-        
+       
     }
     
     public void Dibujar(int n, int largo, Point puntoMouse) {
