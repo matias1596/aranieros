@@ -40,7 +40,7 @@ public class Poligono {
 
     public ArrayList<Point> getPuntosAux() {
         System.out.println(" ");
-        System.out.println("2");
+        System.out.println("2jhvjh");
         System.out.println("3");
         return puntosAux;
        
