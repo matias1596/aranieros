@@ -40,6 +40,7 @@ public class Poligono {
 
     public ArrayList<Point> getPuntosAux() {
         return puntosAux;
+        
     }
     
     public void Dibujar(int n, int largo, Point puntoMouse) {
