@@ -37,16 +37,10 @@ public class Poligono {
     public ArrayList<Point> getPuntos() {
         return puntos;
     }
-<<<<<<< HEAD
 
     /***
-     * aaaaaaaaaaaaaaaaaa
-     * aaaaaaaaaaaaaaaaaa
-=======
-    
-    /***
      * alksnfalksfnaslfkansf
->>>>>>> Matias/Cardinalidad
+     *  Matias/Cardinalidad
      * @return 
      */
     public ArrayList<Point> getPuntosAux() {
