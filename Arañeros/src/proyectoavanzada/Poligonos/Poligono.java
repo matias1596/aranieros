@@ -38,6 +38,11 @@ public class Poligono {
         return puntos;
     }
 
+    /***
+     * aaaaaaaaaaaaaaaaaa
+     * aaaaaaaaaaaaaaaaaa
+     * @return 
+     */
     public ArrayList<Point> getPuntosAux() {
         System.out.println(" ");
         System.out.println("2jhvjh");
