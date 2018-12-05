@@ -38,17 +38,8 @@ public class Poligono {
         return puntos;
     }
 
-    /***
-     * alksnfalksfnaslfkansf
-     *  Matias/Cardinalidad
-     * @return 
-     */
     public ArrayList<Point> getPuntosAux() {
-        System.out.println(" ");
-        System.out.println("2jhvjh");
-        System.out.println("3");
         return puntosAux;
-       
     }
     
     public void Dibujar(int n, int largo, Point puntoMouse) {
