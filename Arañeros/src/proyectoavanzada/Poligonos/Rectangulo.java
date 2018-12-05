@@ -89,6 +89,14 @@ import javafx.scene.shape.StrokeLineCap;
         this.lineaDerecha= new Line(punto.x+largo,punto.y,punto.x+largo,punto.y+40);
     }
    
+    public void PosicionAgregacionIzq(Point puntoCentro){
+        puntoCentro.x=puntoCentro.x-500;
+        Mover(puntoCentro);
+    }
+    public void PosicionAgregacionDer(Point puntoCentro){
+        puntoCentro.x=puntoCentro.x+500;
+        Mover(puntoCentro);
+    }
     
     public void Mover(Point punto) {
         Borrar();
@@ -114,6 +122,7 @@ import javafx.scene.shape.StrokeLineCap;
         
         Dibujar();
     }
+    
     public void MoverRecantulo2(Point punto) {
         Borrar();
         this.punto = punto;
@@ -160,6 +169,7 @@ import javafx.scene.shape.StrokeLineCap;
         lineaDerecha.setStrokeLineCap(StrokeLineCap.ROUND);
         pane.getChildren().add(lineaDerecha);
     }
+    
     public void Dibujar2() {
         lineaSuperior.setStroke(Color.CRIMSON);
         lineaInferior.setStroke(Color.CRIMSON);
